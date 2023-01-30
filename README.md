@@ -26,3 +26,12 @@ If you install a VM on your PC, it installs an OS on your machine, so you will h
 Whereas docker only takes the memory that is needed to deploye your  webapp , It does not install any operating system on your machine like a VM.<br/>
 
 Docker's containers only takes the resources that are required for your webapp
+
+Now again suppose thatn you want to deploye a flask web app on server, for that you will need apachhe,ubuntu,etc packages, so you install them on your srever and make a docker image of it, now you can move that docker image any where and extract a container from that image.
+
+- a container is made from an image, image is the blue print of how to make a container:
+- that blueprint can be like : first install ubuntu then apt get apache then apt get update,
+- means if you want to run some files in sequence then you can put them in docker and make a image for it.
+- install java, set path, pip recognise issues , all  these problems you will have to deal only once.
+- just make an image for it, and put that image in container when ever needed
+- suppose I made a conatiner in my machine using a docker image, now if ubuntu was installed in that container, we can go inside that container, if ubuntu is install in that conatiner we can go and run any ssh. command in ubuntu and commit it, and save it as a deifferent image2, can also send this image2 to other computers and aslo do some alterations there and save as image3.
