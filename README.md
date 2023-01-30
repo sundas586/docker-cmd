@@ -8,7 +8,7 @@
 
 # Docker 
 
-- docker is a company, that provides containers (containerization as a concept).
+- docker is a company, that provides many tools, one of those is docker engine, that creates containers (containerization as a concept/ containers are like VMs).
 - like gamil is a company , that provides emails service.
 
 ### So what is containarization ?<br/>
@@ -44,3 +44,10 @@ Now again suppose thatn you want to deploye a flask web app on server, for that 
 ### Docker Hub :
 it is a hub of that has repositories stored online, that hosts dockers images
 - you can pull docker images from their and install on your pC and make a container
+
+## VMs vs Docker
+
+Before VMs one server was able to host only one OS but now in case of VMs we download kernel on our servers which helps in dividing our resources of machine for differnt OS,
+
+- VM virtualizes hardware.
+- Docker virtualizes operating system.
