@@ -13,13 +13,15 @@
 
 ### So what is containarization ?<br/>
 
-Suppose you have deployed an app (like a website) on server, on your manager says that move this app from this IP address to this IP address, now you will have to repeat the process of downloading all packages again<br/>
+- Suppose you have deployed an app (like a website) on server, on your manager says that move this app from this IP address to this IP address, now you will have to repeat the process of downloading all packages again<br/>
 
 Also it might not work on other machine due to some changes in version.<br/>
 
 If it is working on your machine but not on your co-workers machine because of difference of versions<br/>
 
-suppose you developed a app and when it goes to testing team, your product doesnt work because of difference of just one sigle software having different version
+- suppose you developed a app and when it goes to testing team, your product doesnt work because of difference of just one sigle software having different version
+
+- and also suppose you download pubg game in your cell, after 100% download, you get a list of errors, now as pubg is used world wide, ofcourse the problem is not in software but in your PC/mobile, so sometimes things also cause issue due to not usutable hardware.
 
 All these problems are solved by containers of docker<br/>
 
