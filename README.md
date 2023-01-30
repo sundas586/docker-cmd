@@ -35,3 +35,8 @@ Now again suppose thatn you want to deploye a flask web app on server, for that 
 - install java, set path, pip recognise issues , all  these problems you will have to deal only once.
 - just make an image for it, and put that image in container when ever needed
 - suppose I made a conatiner in my machine using a docker image, now if ubuntu was installed in that container, we can go inside that container, if ubuntu is install in that conatiner we can go and run any ssh. command in ubuntu and commit it, and save it as a deifferent image2, can also send this image2 to other computers and aslo do some alterations there and save as image3.
+
+
+### Docker Hub :
+it is a hub of that has repositories stored online, that hosts dockers images
+- you can pull docker images from their and install on your pC and make a container
