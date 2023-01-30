@@ -19,6 +19,8 @@ Also it might not work on other machine due to some changes in version.<br/>
 
 If it is working on your machine but not on your co-workers machine because of difference of versions<br/>
 
+suppose you developed a app and when it goes to testing team, your product doesnt work because of difference of just one sigle software having different version
+
 All these problems are solved by containers of docker<br/>
 
 If you install a VM on your PC, it installs an OS on your machine, so you will have to configure every thing like, how much CPU how much RAM andf installing process of VM, all this slows your computer<br/>
