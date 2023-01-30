@@ -36,6 +36,10 @@ Now again suppose thatn you want to deploye a flask web app on server, for that 
 - just make an image for it, and put that image in container when ever needed
 - suppose I made a conatiner in my machine using a docker image, now if ubuntu was installed in that container, we can go inside that container, if ubuntu is install in that conatiner we can go and run any ssh. command in ubuntu and commit it, and save it as a deifferent image2, can also send this image2 to other computers and aslo do some alterations there and save as image3.
 
+![docker1](https://user-images.githubusercontent.com/33677647/215383298-9cc0bff8-04e8-4541-883d-025b521330e3.png)
+![docker2](https://user-images.githubusercontent.com/33677647/215383305-931ee6f0-0691-4a57-ad42-40ee63c504a1.png)
+![docker3](https://user-images.githubusercontent.com/33677647/215383309-a085be72-fbae-4ee4-9132-df0cc90d5e9d.png)
+![docker4](https://user-images.githubusercontent.com/33677647/215383321-7fe6ef9f-91ed-44d5-bc7e-d755e349d106.png)
 
 ### Docker Hub :
 it is a hub of that has repositories stored online, that hosts dockers images
