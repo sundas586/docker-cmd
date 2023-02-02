@@ -55,3 +55,15 @@ Before VMs one server was able to host only one OS but now in case of VMs we dow
 
 - VM virtualizes hardware.
 - Docker virtualizes operating system.
+
+![1](https://user-images.githubusercontent.com/33677647/216335490-c28ffe88-02ee-4620-826f-9721ce4737ba.jpg)
+![2](https://user-images.githubusercontent.com/33677647/216335502-f40b1184-4c0a-412e-8848-efdad3495ef5.jpg)
+![3](https://user-images.githubusercontent.com/33677647/216335506-d5819ccf-11ac-40c9-8708-dd02f20c7f79.jpg)
+
+continue lecture from :
+https://www.youtube.com/watch?v=vWjP3fsfgrw&t=908s
+
+then follow :
+https://www.youtube.com/watch?v=h17po-0DfWE
+
+
