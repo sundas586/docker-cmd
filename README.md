@@ -101,9 +101,12 @@ In the imgae below, the port number on the left side is of our machine/server/pc
 - To force stop a container that you ran  with -d in command so its running if you even close the terminal or do crtl+ C : "docker stop (some digits of the id of that container)"
 
 ![1](https://user-images.githubusercontent.com/33677647/224903770-64f237d2-6e7e-4e8a-917b-d07eea9846b5.png)
+![1](https://user-images.githubusercontent.com/33677647/224908722-5475df91-d649-413c-bada-6097b6fcd06e.png)
 
 To stop a continuesly running conatiner, just write "docker stop some begining digits of that id", make sure digits dont match with the id of any other container warna dono band hojayengay
 
-
+- To check check containers I ahd ran before : "docker ps -a"
+- To allow/open a port number for my PC/Server : "ufw allow 5000", so now 5000 port can be used as a port of this server.
+- 
 
 
