@@ -118,7 +118,7 @@ To ye kr k m apni docker container jis ki ID : 1f12..... ha os k andar a gai hu 
 
 ![1](https://user-images.githubusercontent.com/33677647/224913631-dcb7352d-69b7-40ad-ab1f-fc98296b37c5.png)
 
-- 45 meri machine ka IP number tha, lakin  ye oper wali command chala k m container k andr a gai hun to ub machine number k bjaye container number 1f12 show horha ha, ub mjhy is container k andr ak new text file bnani ha jis k liyai VIM ya Nano text editor ki zrurt ha. to ub vim downloiad krny k liyai pehlau hum nay container ko update kiya phir vim download kiya .
+- 45 meri Docker machine ka IP number tha, lakin  ye oper wali command chala k m container k andr a gai hun to ub machine number k bjaye container number 1f12 show horha ha, ub mjhy is container k andr ak new text file bnani ha jis k liyai VIM ya Nano text editor ki zrurt ha. to ub vim downloiad krny k liyai pehlau hum nay container ko update kiya phir vim download kiya .
 
 ![1](https://user-images.githubusercontent.com/33677647/224927675-1db186bc-3c66-4bd3-a662-47b740cb1dd3.png)
 
