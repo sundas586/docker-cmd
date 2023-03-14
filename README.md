@@ -113,6 +113,10 @@ To stop a continuesly running conatiner, just write "docker stop some begining d
 
 ![1](https://user-images.githubusercontent.com/33677647/224909451-6ad40f7f-1a91-431a-a2cc-885843235507.png)
 
+- To go inside a container and to run a bash command inside that container (like creating a file)  : "docker exec -it 1f12 bash"
+To ye kr k m apni docker container jis ki ID : 1f12..... ha os k andar a gai hu  or m un is container k andr koi bhi bash command run kr skti hun e.g file bnana , delete krna, etc.
+
+![1](https://user-images.githubusercontent.com/33677647/224913631-dcb7352d-69b7-40ad-ab1f-fc98296b37c5.png)
 
 ## Command List:
 docker run nginx
