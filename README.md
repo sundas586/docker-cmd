@@ -1,5 +1,7 @@
 ![dockr](https://user-images.githubusercontent.com/33677647/224891125-7b8f18e7-37a1-4317-8ccc-78d4308407bc.png)
 
+suppose your app requires specific softwares with specific versions, then you can store all these pakages info in docker file, then every time your want to use this App the dockerfile will be read to spin the container, and here this container will ack as a independant computer deploying your App in it each time when you spin the container
+
 # docker-cmd
 
 - docker-compose up -d  -------> launch airflow
@@ -66,5 +68,13 @@ https://www.youtube.com/watch?v=vWjP3fsfgrw&t=908s
 
 then follow :
 https://www.youtube.com/watch?v=h17po-0DfWE
+
+
+## Containers Port :
+
+Each container has its own port at which all the trafic will be directed, you have to configure the port of your container if its not getiing configured by default.
+In the imgae below, the port number on the left side is of our machine/server/pc and the port number on the right side is of our Airflow webserver.
+
+![port](https://user-images.githubusercontent.com/33677647/224895620-7d17a5ec-1796-4388-8427-a58d5096fea1.png)
 
 
