@@ -107,6 +107,8 @@ To stop a continuesly running conatiner, just write "docker stop some begining d
 
 - To check check containers I ahd ran before : "docker ps -a"
 - To allow/open a port number for my PC/Server : "ufw allow 5000", so now 5000 port can be used as a port of this server.
-- 
+- To delete all unnecessary containers : "Docker system prune", suppose you made so many containers for practice and now you want to delete them as they are also taking space, then docker system prune command 
+
+![1](https://user-images.githubusercontent.com/33677647/224909451-6ad40f7f-1a91-431a-a2cc-885843235507.png)
 
 
