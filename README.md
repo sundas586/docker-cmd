@@ -1,5 +1,6 @@
-# docker-cmd
+![dockr](https://user-images.githubusercontent.com/33677647/224891125-7b8f18e7-37a1-4317-8ccc-78d4308407bc.png)
 
+# docker-cmd
 
 - docker-compose up -d  -------> launch airflow
 - docker-compose down -v ------> shutdown airflow containers +remove volumes of docker .yaml file(helps to Stop and remove containers, networks, images, and volumes.)
