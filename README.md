@@ -70,11 +70,22 @@ then follow :
 https://www.youtube.com/watch?v=h17po-0DfWE
 
 
-## Containers Port :
+## PORT MAPPING (of Containers Port) : 
 
-Each container has its own port at which all the trafic will be directed, you have to configure the port of your container if its not getiing configured by default.
-In the imgae below, the port number on the left side is of our machine/server/pc and the port number on the right side is of our Airflow webserver.
+Each container has its own port at which all the trafic will be directed, you have to configure this port of your container if its not getiing configured by default.
+In the imgae below, the port number on the left side is of our machine/server/pc(which must have its own IP address as well) and the port number on the right side is of our Airflow webserver (Airflow container).
 
 ![port](https://user-images.githubusercontent.com/33677647/224895620-7d17a5ec-1796-4388-8427-a58d5096fea1.png)
+
+## Setting a container in docker :
+
+- Running a command "**Docker run -p 80:80 ngix**", to run a ngix container in docker with server port 80, and container port 80.
+
+## ISSUE :
+
+- ub agr m apna terminal jahan m nay docker ko up kiya tha or port mapping wagaira kr rahi thi to agr m osay crtl+C kr k band krdun to docker container band hojayega : HAN.
+
+- To ub m esa kiya krun k agr m apna terminal band kr dun to bhi mera docker image chalta rahay :
+- 
 
 
