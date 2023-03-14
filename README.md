@@ -1,3 +1,5 @@
+[Docker cheat sheet link](https://dockerlabs.collabnix.com/docker/cheatsheet/)
+
 ![dockr](https://user-images.githubusercontent.com/33677647/224891125-7b8f18e7-37a1-4317-8ccc-78d4308407bc.png)
 
 suppose your app requires specific softwares with specific versions, then you can store all these pakages info in docker file, then every time your want to use this App the dockerfile will be read to spin the container, and here this container will ack as a independant computer deploying your App in it each time when you spin the container
@@ -111,4 +113,28 @@ To stop a continuesly running conatiner, just write "docker stop some begining d
 
 ![1](https://user-images.githubusercontent.com/33677647/224909451-6ad40f7f-1a91-431a-a2cc-885843235507.png)
 
+
+## Command List:
+docker run nginx
+docker run -p 8080:80 nginx 
+docker ps 
+docker ps -a 
+ufw allow 8080 
+docker stop <first few letters of Container ID>
+docker run -d nginx // starts nginx docker container in background
+docker rm CID
+docker rm -f CID/name // delete a running container forcefully
+docker start CID/name
+ 
+touch this.png
+docker cp this.png <first few letters of Container ID>:th.txt
+docker exec -it <first few letters of Container ID> bash
+
+docker cp <first few letters of Container ID>:mine.txt this.uu // copy from container to source
+docker exec -it <Container_ID> bash // executes a command inside an existing container
+docker commit container 
+
+docker images 
+docker image ls 
+docker system prune
 
