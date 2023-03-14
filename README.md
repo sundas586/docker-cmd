@@ -122,9 +122,31 @@ To ye kr k m apni docker container jis ki ID : 1f12..... ha os k andar a gai hu 
 
 ![1](https://user-images.githubusercontent.com/33677647/224927675-1db186bc-3c66-4bd3-a662-47b740cb1dd3.png)
 
-to get out of container : "exit"
+- to get out of container : "exit"
 
 ![1](https://user-images.githubusercontent.com/33677647/224928504-6eaf1a95-02c2-4ed1-9038-ed3a3f31ee3f.png)
+
+- to save a file from local machine/VM/ server to a docker container : "docker source-file destination" : "docker abc.txt 1f12:xyz.txt" 
+
+- to see all the images of docker : "docker images"
+
+![1](https://user-images.githubusercontent.com/33677647/224958037-bf36c089-c09c-4f80-b0f3-4869829d1159.png)
+
+- to make the container out of an image : "docker run image-id"
+- and to run container when terminal is closed : "docker run -d image-id"
+
+![1](https://user-images.githubusercontent.com/33677647/224959654-4aaee196-1ef3-470e-b079-5fe37e4eee27.png)
+
+### docker commit
+
+If you made some changes in a container and you want to save the image of this modified container. then use the "docker commit container-id" command.
+
+![2](https://user-images.githubusercontent.com/33677647/224961929-18e40ded-e017-4fcf-9fbb-2c4298a04f79.png)
+
+Now as I had downloaded a software called Vim in this container and also created some text files, now I want to make a image of this modified container, that I can do with docker commit :
+
+![1](https://user-images.githubusercontent.com/33677647/224964444-311995fe-14e3-43c0-9a9c-31c7db8e3f4b.png)
+
 
 ## Command List:
 docker run nginx
