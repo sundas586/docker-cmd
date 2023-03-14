@@ -147,6 +147,13 @@ Now as I had downloaded a software called Vim in this container and also created
 
 ![1](https://user-images.githubusercontent.com/33677647/224964444-311995fe-14e3-43c0-9a9c-31c7db8e3f4b.png)
 
+- Here in below image we are downloading an image named "centOS" from dockers hub image repository, 
+- using command "pull image centOS"
+- the making a container out of that image 
+- then getting into the bash terminal of that container
+- then exit the container
+![1](https://user-images.githubusercontent.com/33677647/224971187-66d3725e-0f59-4382-ac34-226c4c04c222.png)
+
 
 ## Command List:
 docker run nginx
