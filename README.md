@@ -1,5 +1,9 @@
 [Docker cheat sheet link](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 
+## Purpose of using docker :
+
+Docker allows developers to package their applications and dependencies into lightweight and portable containers, providing consistency, isolation, and scalability benefits. It simplifies application development, deployment, and management across different platforms and environments.
+
 ![dockr](https://user-images.githubusercontent.com/33677647/224891125-7b8f18e7-37a1-4317-8ccc-78d4308407bc.png)
 
 suppose your app requires specific softwares with specific versions, then you can store all these pakages info in docker file, then every time your want to use this App the dockerfile will be read to spin the container, and here this container will ack as a independant computer deploying your App in it each time when you spin the container
