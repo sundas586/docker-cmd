@@ -8,13 +8,6 @@ Docker allows developers to package their applications and dependencies into lig
 
 suppose your app requires specific softwares with specific versions, then you can store all these pakages info in docker file, then every time your want to use this App the dockerfile will be read to spin the container, and here this container will ack as a independant computer deploying your App in it each time when you spin the container
 
-# docker-cmd
-
-- docker-compose up -d  -------> launch airflow
-- docker-compose down -v ------> shutdown airflow containers +remove volumes of docker .yaml file(helps to Stop and remove containers, networks, images, and volumes.)
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 # Docker 
 
 - docker is a company, that provides many tools, one of those is docker engine, that creates containers (containerization as a concept/ containers are like VMs).
@@ -157,6 +150,10 @@ Now as I had downloaded a software called Vim in this container and also created
 - then getting into the bash terminal of that container
 - then exit the container
 ![1](https://user-images.githubusercontent.com/33677647/224971187-66d3725e-0f59-4382-ac34-226c4c04c222.png)
+
+- docker-compose up -d  -------> launch airflow
+- docker-compose down -v ------> shutdown airflow containers +remove volumes of docker .yaml file(helps to Stop and remove containers, networks, images, and volumes.)
+
 
 
 ## Command List:
