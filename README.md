@@ -67,6 +67,13 @@ When we build a Docker image, Docker uses this file to create a new image. The R
 
 By including the requirements.txt file in the Dockerfile, we can ensure that the exact same versions of the required Python packages are installed inside the container, regardless of the host system or the environment where the container is running. This ensures that the application runs consistently across different environments and is not affected by any differences in package versions or dependencies.
 
+# docker build vs docker-compose up vs docker run :
+
+- docker build is used to build a Docker base image defined in dockerfile. 
+- docker run is used to run a Docker container from an image (This Up's only one container).
+- docker-compose up is used to start a group of related Docker containers defined in a docker-compose.yml file. (Up's many containers simultaneously).
+
+
 ### Docker Hub :
 it is a hub of that has repositories stored online, that hosts dockers images
 - you can pull docker images from their and install on your pC and make a container
