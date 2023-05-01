@@ -70,7 +70,8 @@ By including the requirements.txt file in the Dockerfile, we can ensure that the
 # docker build vs docker-compose up vs docker run :
 
 - docker build is used to build a Docker base image defined in dockerfile. 
-- docker run is used to run a Docker container from an image (This Up's only one container).
+- docker run first creates a new container from an image (the name of that image you give the in command) and then it also runs-up that container (This Up's only one container).
+- ----> "docker run -p 80:80 nginx" (In this example, the -p option is used to map port 80 of the container to port 80 of the host machine, and nginx is the name of the image to use. When you run this command, Docker will create a new container from the nginx image, and start the container with port 80 of the container mapped to port 80 of the host machine.)
 - docker-compose up is used to start a group of related Docker containers defined in a docker-compose.yml file. (Up's many containers simultaneously).
 
 
