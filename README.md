@@ -47,6 +47,12 @@ Now again suppose thatn you want to deploye a flask web app on server, for that 
 ![docker4](https://user-images.githubusercontent.com/33677647/215383321-7fe6ef9f-91ed-44d5-bc7e-d755e349d106.png)
 ![lmlm](https://user-images.githubusercontent.com/33677647/215383683-0a0c30a6-1774-4a3f-991c-76b983d362ae.png)
 
+ - a Docker image is a static snapshot/ **blue print of an application and its dependencies**, while a Docker container is a running instance of that image. Images are used to create containers, and containers are used to run applications in a portable and isolated manner.
+ 
+ - A Docker container is a **executable unit**. Docker container is a running instance of that image. 
+ - One image can create many containers.
+ - Image ia a blue print of app. and containers runs the app in isolated & portable environment.
+
 ### Docker Hub :
 it is a hub of that has repositories stored online, that hosts dockers images
 - you can pull docker images from their and install on your pC and make a container
