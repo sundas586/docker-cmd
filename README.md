@@ -53,6 +53,12 @@ Now again suppose thatn you want to deploye a flask web app on server, for that 
  - One image can create many containers.
  - Image ia a blue print of app. and containers runs the app in isolated & portable environment.
 
+# dockerfile.file Vs docker-compose.yaml
+
+- a dockerfile.file is used to create a Docker image (base image/blue print of the application)
+- a docker-compose.yaml file is used to manage a set of Docker containers that make up an application.
+-  Both files are important and work together to provide a complete solution for deploying and managing Docker applications.
+
 ### Docker Hub :
 it is a hub of that has repositories stored online, that hosts dockers images
 - you can pull docker images from their and install on your pC and make a container
