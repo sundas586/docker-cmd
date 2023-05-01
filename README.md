@@ -59,6 +59,14 @@ Now again suppose thatn you want to deploye a flask web app on server, for that 
 - a docker-compose.yaml file is used to manage a set of Docker containers that make up an application.
 -  Both files are important and work together to provide a complete solution for deploying and managing Docker applications.
 
+# why do we include requiretments.txt in dockerfile?
+
+We include requirements.txt file in Dockerfile to manage the dependencies of the Python application. requirements.txt file lists all the Python packages and their versions required by your application, and Docker can use this file to install the packages inside the container.
+
+When we build a Docker image, Docker uses this file to create a new image. The RUN command in the Dockerfile is used to execute commands inside the container during the build process. So, we can use the RUN command to install the Python packages required by the application, by running the pip install command inside the container.
+
+By including the requirements.txt file in the Dockerfile, we can ensure that the exact same versions of the required Python packages are installed inside the container, regardless of the host system or the environment where the container is running. This ensures that the application runs consistently across different environments and is not affected by any differences in package versions or dependencies.
+
 ### Docker Hub :
 it is a hub of that has repositories stored online, that hosts dockers images
 - you can pull docker images from their and install on your pC and make a container
