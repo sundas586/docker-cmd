@@ -117,6 +117,9 @@ In the imgae below, the port number on the left side is of our machine/server/pc
 
 ![1](https://user-images.githubusercontent.com/33677647/224898020-3d703c8c-bb02-4efc-a263-db5b58733a78.png)
 
+- In Docker, the **"-d" flag stands for "detached" mode**.
+- When you run a Docker container with the "-d" flag, it means that the container will run in the background (detached mode), allowing you to continue using your terminal for other tasks without being tied to the container's output. It's commonly used when you don't need to interact with the container directly but still want it to run in the background.
+
 - or ye jo is command k nechay hi itna lamba ha number nazar a raha ha ye terminal hamay bta raha h k bhai ye is id wala container back ground m run horaha ha.
 
 ![1](https://user-images.githubusercontent.com/33677647/224898568-f48d02b7-fe86-4ccc-a9ef-a38848137ad0.png)
