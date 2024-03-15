@@ -1,3 +1,7 @@
+```diff
++ Docker enables you to separate your software from your infrastructure for fast delivery
+```
+
 [Docker cheat sheet link](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 
 ## Purpose of using docker :
