@@ -1,6 +1,21 @@
 ```diff
 + Docker enables you to separate your software from your infrastructure for fast delivery
 ```
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/d8f5aa01-b266-4e2a-9acc-4a765c64a192)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/c8d4f87f-70db-442d-be4b-73b60b00ef8d)
+
+### Tag (image name)
+
+- when we don't give a name to an image, docker by-defaults give it a tag name '**latest**'
+
+  ![image](https://github.com/sundas586/docker-cmd/assets/33677647/536ef842-1fcc-4120-b1d9-b23090f9fbf6)
+
+### List of docker images
+
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/02573cf6-5146-4345-99a6-a9ea97e3a56b)
+
+
+
 
 [Docker cheat sheet link](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 
@@ -117,7 +132,8 @@ In the imgae below, the port number on the left side is of our machine/server/pc
 - ub agr m apna terminal jahan m nay docker ko up kiya tha or port mapping wagaira kr rahi thi to agr m osay crtl+C kr k band krdun to docker container band hojayega : HAN.
 
 - To ub m esa kiya krun k agr m apna terminal band kr dun to bhi mera docker image chalta rahay  :
-- **Soluntion** : just put a "-d" in the same command when doing the up of container to ye ub terminal band ya stop krnay k bad bhi background m container run krta rahay ga :
+- **Soluntion** : just put a "-d" in the same command when doing the up of container to ye ub terminal band ya stop krnay k bad bhi background m container run krta rahay ga
+- (-d : run the container in background and not only on front console, If you don't put -d so your container will run only on front console and once you close your tab, container will be down again):
 
 ![1](https://user-images.githubusercontent.com/33677647/224898020-3d703c8c-bb02-4efc-a263-db5b58733a78.png)
 
