@@ -100,6 +100,31 @@
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/8196fd7d-7226-4a0e-b2a8-248b01d2c18a)
 
 
+# Docker Network:
+
+- A Docker network is a virtual network that allows Docker containers to communicate with each other and with external networks. 
+- It provides isolation and security for containerized applications by creating separate communication channels.
+
+## Types of Docker Networks:
+
+- Docker supports various types of networks to accommodate different use cases:
+
+1_ Bridge Network (Default network/ Docker0)<br/>
+2_ Host Network <br/>
+3_ None Network <br/>
+
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/a310b382-ac22-4066-9cfb-6e6dd5a3ad79)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/a17b3197-7f26-491b-9cc5-724afbe50444)
+
+- Any container we create is by default on the bridge network (Docker-0)
+
+  ![image](https://github.com/sundas586/docker-cmd/assets/33677647/920badd5-15a0-4a2f-a95c-cd9df7a4c34d)
+
+
+- To check how many networks do we have on our machine
+- **Docker network ls**
+  ![image](https://github.com/sundas586/docker-cmd/assets/33677647/9410821c-76f0-4c97-8d9e-897e16723266)
+ 
 
 
 
