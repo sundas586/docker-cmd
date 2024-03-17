@@ -1,6 +1,4 @@
-![image](https://github.com/sundas586/docker-cmd/assets/33677647/2317a94d-37e8-4f5a-8377-2a61ece04873)
-
-```diff
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/ac24f565-4766-4e5e-82b3-c5b5d298ae35)```diff
 + Docker enables you to separate your software from your infrastructure for fast delivery
 ```
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/d8f5aa01-b266-4e2a-9acc-4a765c64a192)
@@ -8,7 +6,7 @@
 
 ### Tag (image name)
 
-- when we don't give a name to an image, docker by-defaults give it a tag name '**latest**'
+- when we don't give a name to an image, docker by defaults give it a tag name '**latest**'
 
   ![image](https://github.com/sundas586/docker-cmd/assets/33677647/536ef842-1fcc-4120-b1d9-b23090f9fbf6)
 
@@ -19,6 +17,12 @@
 ### To run an image, we do not need to pull it first, we run the image and if it is not available in `docker ls` docker will pull the image automatically and then run this image.
 
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/785fc21f-ba97-4792-ad68-0073a0ca8903)
+
+- In the first command, we check that our docker has no image
+- In the second command we directly **RUN** an image and also give it a name **C1** so docker first **PULL**s the and then runs it as a container.
+- In the third command we see that yes we do have a running container with the name C1
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/ab1a10f0-96cb-46f1-89bf-fa5332431ce3)
+
 
 ### to remove an image 
 
