@@ -1,4 +1,4 @@
-```diff
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/2317a94d-37e8-4f5a-8377-2a61ece04873)```diff
 + Docker enables you to separate your software from your infrastructure for fast delivery
 ```
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/d8f5aa01-b266-4e2a-9acc-4a765c64a192)
@@ -13,6 +13,18 @@
 ### List of docker images
 
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/02573cf6-5146-4345-99a6-a9ea97e3a56b)
+
+### To run an image, we do not need to pull it first, we run the image and if it is not available in `docker ls` docker will pull the image automatically and then run this image.
+
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/785fc21f-ba97-4792-ad68-0073a0ca8903)
+
+### to remove an image 
+
+- rmi = remove image
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/ef2967ec-9f72-4fc0-8587-3c0fb35973b4)
+
+
+
 
 
 
