@@ -1,4 +1,3 @@
-![image](https://github.com/sundas586/docker-cmd/assets/33677647/bab53031-6e7d-4c84-b9cd-7752f960bb99)![image](https://github.com/sundas586/docker-cmd/assets/33677647/5b31d6f1-102b-4b8d-b622-fe581d570ef7)![image](https://github.com/sundas586/docker-cmd/assets/33677647/260b9f64-e72d-4d42-8194-7600b6005c5e)
 ```diff
 + Docker enables you to separate your software from your infrastructure for fast delivery
 ```
