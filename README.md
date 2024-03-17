@@ -1,4 +1,4 @@
-
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/bab53031-6e7d-4c84-b9cd-7752f960bb99)![image](https://github.com/sundas586/docker-cmd/assets/33677647/5b31d6f1-102b-4b8d-b622-fe581d570ef7)![image](https://github.com/sundas586/docker-cmd/assets/33677647/260b9f64-e72d-4d42-8194-7600b6005c5e)
 ```diff
 + Docker enables you to separate your software from your infrastructure for fast delivery
 ```
@@ -29,6 +29,85 @@
 
 - rmi = remove image
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/ef2967ec-9f72-4fc0-8587-3c0fb35973b4)
+
+### OK! So you created a running container inside docker BUT!! How to bind it to the outside world (by : PORT BINGING)
+
+- Here we are binding the port of our local machine/PC/Server (8081) to the port of our docker container (80)
+- After binding the ports like this, **We can access our container from anywhere in the world** or from local browser, just by providing the IP & the port
+
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/bc8ceab9-369b-4fcf-a9e6-90a4de6c13cb)
+
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/75228757-9e74-49f1-a3a2-e39dca7e3c8e)
+
+### Let's check our used ports & Networks (also what is the command: netstat tulnp)
+
+- As we had to bind our port 8081 of the local server/ machine to port 80 of docker
+
+  ![image](https://github.com/sundas586/docker-cmd/assets/33677647/aa7d171d-7ab2-4e29-867a-548beb41ca78)
+  ![image](https://github.com/sundas586/docker-cmd/assets/33677647/936b60e3-5c2d-425c-bb18-b8b806e0e21d)
+
+  ```diff
+  + Since we can alway change the port number of the local machine
+  - But the port number of a container can not be changed
+  @@ To change the port number of local machine we can check which ports are available using `netstat tulnp` command @@
+  ```
+
+
+### IP address of container
+
+- So as we have bind the port 8081 of our machine to port 80 of Docker.
+- We just need to provide IP address and the port 8081 will route the traffic to port 80
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/442c4777-32ff-4bc0-afae-04bdd090b657)
+
+- **ip a**
+  
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/6a34e85c-419f-46d5-8f89-5b006ec6f78c)
+- You can see the IP address of each interface listed under the **inet** field
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/b9ec67e9-7c33-40ba-94ef-fb07cee8d360)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/6340d585-d0f8-43e4-ad7f-929780e3bc43)
+- your machine IP + port
+  ![image](https://github.com/sundas586/docker-cmd/assets/33677647/9d546969-780a-4113-a1e5-fc2bc87db985)
+
+
+
+
+
+
+### How to check the LOGS  of a container
+
+- In the first command, we are running a container and also giving it a name
+- In the second command, we are checking its logs (we can either give the container ID or the container name to check logs)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/4ceb6ea7-aa5f-4e78-ab39-b86f2b282a2b)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/c650fdbf-4311-4490-a6d6-636b2ed0b18e)
+
+### If you want full info about any Image/ Container/ Volume then use : "DOCKER INSPECT"
+
+- The docker inspect command is used to get the full info of any docker object (e.g Image, container, volume)
+- It has a detailed JSON-formatted output
+- Container ID
+- When this container was created
+- What are the arguments
+- What is the state
+- Which Image was used to create this container
+- Where is the log file of this container
+- Mount
+- Restart count
+- Entry Point
+
+- **Docker inspect containerID/ containerName**
+- **Docker inspect ImageID**  
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/41a0d2c8-d656-4fd5-bd24-0d6ae10c2fbd)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/a0f5f6c3-b4be-4236-93e8-867cc9c1a917)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/8196fd7d-7226-4a0e-b2a8-248b01d2c18a)
+
+
+
+
+
+
+
+
+
 
 
 
