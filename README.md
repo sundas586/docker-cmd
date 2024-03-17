@@ -1,4 +1,6 @@
-![image](https://github.com/sundas586/docker-cmd/assets/33677647/2317a94d-37e8-4f5a-8377-2a61ece04873)```diff
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/2317a94d-37e8-4f5a-8377-2a61ece04873)
+
+```diff
 + Docker enables you to separate your software from your infrastructure for fast delivery
 ```
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/d8f5aa01-b266-4e2a-9acc-4a765c64a192)
