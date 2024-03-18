@@ -46,9 +46,9 @@
   ![image](https://github.com/sundas586/docker-cmd/assets/33677647/936b60e3-5c2d-425c-bb18-b8b806e0e21d)
 
   ```diff
-  + Since we can alway change the port number of the local machine
+  + Since we can always change the port number of the local machine
   - But the port number of a container can not be changed
-  @@ To change the port number of local machine we can check which ports are available using `netstat tulnp` command @@
+  @@ To change the port number of the local machine we can check which ports are available using `netstat tulnp` command @@
   ```
 
 
