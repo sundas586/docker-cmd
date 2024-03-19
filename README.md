@@ -121,22 +121,20 @@
   ![image](https://github.com/sundas586/docker-cmd/assets/33677647/920badd5-15a0-4a2f-a95c-cd9df7a4c34d)
 
 
-- To check how many networks do we have on our machine
+- To check how many networks we have on our machine
 - **Docker network ls**
   ![image](https://github.com/sundas586/docker-cmd/assets/33677647/9410821c-76f0-4c97-8d9e-897e16723266)
  
-
-
-
-
-
-
-
-
-
-
-
-
+```diff
++ so what i inderstand is k any container we create uses Bridge network (Docker-0) by default and therefore it uses our machines local IP and the assigned port number to that specific contaoner
+```
+- local IP
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/0747b709-da63-4d85-8b88-bf5380f9bc41)
+- 8081:80 is the port binding for c3
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/8bab9f39-77cf-4cf7-9262-a6851d9b6597)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/8555ba2c-5f86-4d7f-ace5-6f801fdae4a1)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/3a56e903-4898-46e3-a44e-e7d48bdb9a35)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/7b96c96c-58d5-4303-8bf1-34008992b5a2)
 
 
 [Docker cheat sheet link](https://dockerlabs.collabnix.com/docker/cheatsheet/)
