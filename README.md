@@ -67,11 +67,6 @@
 - your machine IP + port
   ![image](https://github.com/sundas586/docker-cmd/assets/33677647/9d546969-780a-4113-a1e5-fc2bc87db985)
 
-
-
-
-
-
 ### How to check the LOGS  of a container
 
 - In the first command, we are running a container and also giving it a name
@@ -135,6 +130,10 @@
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/8555ba2c-5f86-4d7f-ace5-6f801fdae4a1)
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/3a56e903-4898-46e3-a44e-e7d48bdb9a35)
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/7b96c96c-58d5-4303-8bf1-34008992b5a2)
+
+
+
+--DRIVER = bridge/host/none
 
 
 [Docker cheat sheet link](https://dockerlabs.collabnix.com/docker/cheatsheet/)
