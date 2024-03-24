@@ -131,9 +131,28 @@
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/3a56e903-4898-46e3-a44e-e7d48bdb9a35)
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/7b96c96c-58d5-4303-8bf1-34008992b5a2)
 
+# What is a Custom network? Why should I use it instead of the normal bridge network?
+
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/5049cfe9-c82e-46f3-a5db-b1b750a3b56d)
+
+- Basically, we can create our custom network and then attach the running containers to this custom network.
+- A We can specify the IP range for our network by setting the IP range of the subnet :
+- ![image](https://github.com/sundas586/docker-cmd/assets/33677647/eab37d49-4744-44b1-a75d-3cb912821913)
+- If we do not specify the IP range of our custom network then  by default will be set as 172 IP range, as 172 is the IP range of the bridge network.
+<br/>
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/a952e622-5ec2-44c1-aca6-7db769fcc5ac)
+
+<br/>
+- In the Option of the driver, we can choose which network (i.e bridge/host/none) do we want to choose for your custom network. <br/>
+- --DRIVER = bridge/host/none
+
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/a74b245c-df22-4b5e-b19e-4fc3dd412cf2)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/96f0c285-efc4-44ee-b914-a614173f470e)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/4654c6c4-4599-4e8d-a790-7d1e422469e8)
 
 
---DRIVER = bridge/host/none
+- 
+
 
 
 [Docker cheat sheet link](https://dockerlabs.collabnix.com/docker/cheatsheet/)
