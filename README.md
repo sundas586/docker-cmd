@@ -165,6 +165,40 @@
 + we can use `docker inspect network_name` to see which containers are attached to this network
 ```
 
+# Host Network
+
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/5ba10d3d-a802-4001-b816-fe9834c3a2e1)
+
+- Binding `nginx` image with host network :
+
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/780b206e-71fe-4a66-8bd4-44412ee278e2)
+
+### Problem with host network :
+
+```diff
+@@ The problem with host network is k is mai port conflicts bohat hotay han @@
+@@ Like agr humnay ak container(C5) add kiya host network par to ub host network ki IP + TCP_PORT (FIXED) : 0.0.0.0:80 hi hoti ha @@
+@@ ub agr hum ak or container(C6) add krty han host network par to IP+TCP_PORT = 0.0.0.0:80 to already filled ha to ub new container C6 ban to jayega but bantay hi exit bhi hojayega q k jaga khali nhi ha required 0.0.0.0:80 par @@
+@@ or agr hum C6 k logs check karayngay to os mai ye hi likha hua hoga k `bind() to 0.0.0.0:80 failed (98: Address already in use` @@
+```
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/5110e9e1-4b9b-4fea-af73-1d5493aa4177)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/6be9ca0b-8313-4f86-b2d3-d3a2733ec168)
+
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 [Docker cheat sheet link](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 
