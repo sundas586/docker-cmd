@@ -184,6 +184,17 @@
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/5110e9e1-4b9b-4fea-af73-1d5493aa4177)
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/6be9ca0b-8313-4f86-b2d3-d3a2733ec168)
 
+# Delete the running containers
+
+- Suppose I created 5 containers from same Image `nginx` and now a command to delete all containers at once :
+
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/d66196ce-1416-44f6-aefa-30e5c6d296cd)
+
+# Communication between containers of two different network
+
+
+
+
 
   
  
