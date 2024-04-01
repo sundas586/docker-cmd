@@ -142,16 +142,25 @@
 <br/>
 
 <br/>
+
 - In the Option of the driver, we can choose which network (i.e bridge/host/none) do we want to choose for your custom network. <br/>
+
 <br/>
+
 - --DRIVER = bridge/host/none
+ 
 <br/>
+
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/a74b245c-df22-4b5e-b19e-4fc3dd412cf2)
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/96f0c285-efc4-44ee-b914-a614173f470e)
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/4654c6c4-4599-4e8d-a790-7d1e422469e8)
+
 <br/>
+
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/bf70954f-88c6-489b-99c9-97d87a2289d2)
+
 <br/>
+
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/c51265d8-9739-40f0-9121-870a519be059)
 
 ### Create a container named `c4`, using image `nginx` and binding it to my custom network `test` :
