@@ -195,13 +195,42 @@
 
 # Delete the running containers
 
-- Suppose I created 5 containers from same Image `nginx` and now a command to delete all containers at once :
+- Suppose I created 5 containers from the same Image `nginx` and now a command to delete all containers at once :
 
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/d66196ce-1416-44f6-aefa-30e5c6d296cd)
 
 # Communication between containers of two different network
 
+- lets have 2 containers (C7 & C11) and connect them both to different networks
+-  C7 to default bridge network (IP range = 172)
+-  C11 to our custom `test` network (IP range = 192, and derived = bridge)
 
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/02c8a765-c650-4645-8279-b02e137d2d22)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/c7fa028f-004d-4f69-bb51-e5f6808a4c4d)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/97c1d75d-60c4-4948-9cee-ef70f55e988e)
+
+- now lets check the ip addresses of both containers after connecting them to their networks:
+
+- C11
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/f29a4c30-354c-454b-9e72-436c7a326fcd)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/c91c4c68-044a-42dd-a323-ee1f53a52b3b)
+
+
+- C7
+
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/8f1548eb-4fc4-4bf9-8ff8-d7f4989cde41)
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/00570bdc-7f9f-47c8-a4cc-9f818e10fd51)
+
+- now as we already found that the ip adress of c7 is "172.17.0.3" and ip adress of c11 is "c"
+- lets ping  192.168.2.3 (C11)  from  172.17.0.3 (C7)
+
+- for that lets get inside the container of c7 :
+
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/be6b1177-c492-4dab-9d1a-7ec676784803)
+
+- and now ping c11 from the inside container of c7
+
+  
 
 
 
