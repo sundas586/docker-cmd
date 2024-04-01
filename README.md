@@ -95,6 +95,7 @@
 ![image](https://github.com/sundas586/docker-cmd/assets/33677647/8196fd7d-7226-4a0e-b2a8-248b01d2c18a)
 
 
+
 # Docker Network:
 
 - A Docker network is a virtual network that allows Docker containers to communicate with each other and with external networks. 
@@ -230,8 +231,10 @@
 
 - and now ping c11 from the inside container of c7
 
+![image](https://github.com/sundas586/docker-cmd/assets/33677647/3a4f9ff7-0c31-48eb-be3a-672ed1330058)
   
-
+- I got no response because of IP of c7 (172.) and IP of C11 (192.) both belong to different range
+  
 
 
   
